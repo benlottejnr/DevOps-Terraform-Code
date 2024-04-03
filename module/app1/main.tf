@@ -5,6 +5,8 @@ module "key" {
 }
 
 module "vpc" {
+    #it is a bad practice to include the link of terraform registry module
+    #always clone the module and then modify, below is just for a quick work
   source = "terraform-aws-modules/vpc/aws"
 
   name = "my-vpc1234"
