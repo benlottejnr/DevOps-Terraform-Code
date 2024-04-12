@@ -6,5 +6,6 @@ variable "region_name" {
 
 variable "key_name" {
   description = "Key name"
+  default = "defaultkey"
   type = string
 }
